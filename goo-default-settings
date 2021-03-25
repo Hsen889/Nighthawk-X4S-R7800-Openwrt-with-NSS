@@ -7,7 +7,7 @@ uci set irqbalance.irqbalance.enabled=1
 uci commit irqbalance
 
 # 固件名称
-uci set system.@system[0].hostname=NetGear
+uci set system.@system[0].hostname=Nighthawk-X4S-R7800
 uci set system.@system[0].timezone=CST-8
 uci set system.@system[0].zonename=Asia/Shanghai
 uci commit system
@@ -33,7 +33,7 @@ uci set fstab.@global[0].anon_mount=1
 uci commit fstab
 
 # 设置默认管理IP地址
-uci set network.lan.ipaddr='192.168.10.1'
+uci set network.lan.ipaddr='192.168.15.1'
 uci set network.lan.netmask='255.255.255.0'
 uci set network.lan.delegate='0'
 uci set network.wan.delegate='0'
