@@ -22,13 +22,13 @@ on:
 env:
   REPO_URL: https://github.com/ACwifidude/openwrt
   REPO_BRANCH: openwrt-21.02-nss-qsdk10.0
-  BRANCH: R7800-with-NSS
+  BRANCH: Nighthawk-X4S-R7800-Openwrt-with-NSS
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   FEED_CLEAN: feed-clean.sh
-  DEF_SETS: goo-default-settings
+  DEF_SETS: zzz-default-settings
   UPLOAD_BRANCH: true
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
@@ -39,7 +39,7 @@ env:
   BUILD_USER: Hsen889
   GITHUB_USER_NAME: Hsen889
   GITHUB_USER_EMAIL: ${{ secrets.EMAIL }}
-  GITHUB: github.com/Hsen889/R7800-Openwrt-with-NSS.git
+  GITHUB: github.com/Hsen889/Nighthawk-X4S-R7800-Openwrt-with-NSS.git
   
 jobs:
   build:
