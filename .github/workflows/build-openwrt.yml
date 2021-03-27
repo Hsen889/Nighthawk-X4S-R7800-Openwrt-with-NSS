@@ -195,7 +195,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
-        name: Nighthawk-X4S-R7800 ${{ env.BRANCH }} 🚀 | 自动编译 / ${{ env.RELEASE_TAG }}
+        name: Nighthawk-X4S-R7800-Openwrt-with-NSS ${{ env.BRANCH }} 🚀 | 自动编译 / ${{ env.RELEASE_TAG }}
         tag_name: ${{ env.RELEASE_TAG }}
         body: |            
             1、本固件为自动编译
