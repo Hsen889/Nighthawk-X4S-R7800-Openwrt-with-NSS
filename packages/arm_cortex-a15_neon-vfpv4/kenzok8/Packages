@@ -1,0 +1,81 @@
+Package: luci-app-jd-dailybonus
+Version: 1.0.5
+Depends: libc, node, wget, lua, curl, libuci-lua
+Section: luci
+Architecture: all
+Installed-Size: 1071508
+Filename: luci-app-jd-dailybonus_1.0.5_all.ipk
+Size: 1071864
+SHA256sum: ebc4282e85ae656daf030685f0ac9288eb9c808bdb498c762fff47e0116432aa
+Description:  Luci for JD dailybonus Script
+
+Package: luci-app-ssr-plus
+Version: 183
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget-ssl, lua, libuci-lua, microsocks, dns2socks, shadowsocksr-libev-ssr-local, tcping, resolveip, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs, v2ray-plugin, xray-core, trojan, ipt2socks, naiveproxy, redsocks2, kcptun-client, shadowsocksr-libev-server
+Section: luci
+Architecture: all
+Installed-Size: 190903
+Filename: luci-app-ssr-plus_183_all.ipk
+Size: 191016
+SHA256sum: 50a39db6d8746c92ddd025f75ac730fea2f2237f60cb8fa62d68be6483451fd5
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: git-21.085.20325-c05dd4c
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 5326
+Filename: luci-i18n-ssr-plus-zh-cn_git-21.085.20325-c05dd4c_all.ipk
+Size: 6152
+SHA256sum: 63c6f3a55d3e0d8bdc803c671741a575cc1a3ead06780e4d7fab936dd932532d
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
+
+Package: microsocks
+Version: 1.0.2-2
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5044
+Filename: microsocks_1.0.2-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5768
+SHA256sum: e6c34aad729f2e5900ca9a36258e2c10d892504d59fbfbc614e4653191f39e1d
+Description:  microsocks is a Tiny Proxy in C.
+
+Package: naiveproxy
+Version: 89.0.4389.72-1-2
+Depends: libc, libatomic1, libnss
+License: BSD 3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2161457
+Filename: naiveproxy_89.0.4389.72-1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2155038
+SHA256sum: a67e3475e408ad3fbf6b305659f38514c1f150b77c42e67ecbe60cbee35eb53e
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent27, libopenssl1.1
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 52923
+Filename: redsocks2_0.67-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 53767
+SHA256sum: 0e118945da2a1f7c29d8e4d657d84041fda723b7d62151d2e8a03ecb0e11d974
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3279
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3975
+SHA256sum: 4d458ae77396b44ff4575b3cbc2092dee92d9ee534df7ab3aaf40e925d356d26
+Description:  tcping measures the latency of a tcp-connection
+
