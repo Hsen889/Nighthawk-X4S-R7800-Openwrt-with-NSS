@@ -21,8 +21,8 @@ uci set sfe.config.enabled=1
 # uci set sfe.config.dns=1
 # uci set sfe.config.bbr=1
 uci set sfe.config.wifi=1
-# uci set sfe.config.dns_server='119.29.29.29,223.5.5.5,180.76.76.76,114.114.114.114,114.114.115.115'
-# uci commit sfe
+uci set sfe.config.dns_server='119.29.29.29,223.5.5.5,180.76.76.76,114.114.114.114,114.114.115.115'
+uci commit sfe
 
 
 # 默认开启解锁网易云灰色歌曲
