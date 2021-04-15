@@ -55,7 +55,11 @@ mv package/lean/luci-app-accesscontrol/po/zh-cn package/lean/luci-app-accesscont
 
 # sed -i '$a src-git OpenAppFilter https://github.com/OpenWrt-Actions/OpenAppFilter' feeds.conf.default
 
+# 添加温度显示(By YYiiEt)
+sed -i 's/or "1"%>/or "1"%> ( <%=luci.sys.exec("expr `cat \/sys\/class\/thermal\/thermal_zone0\/temp` \/ 1000") or "?"%> \&#8451; ) /g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
 
+# 修改固件生成名字,增加当天日期(by:左右）
+# sed -i 's/IMG_PREFIX:=$(VERSION_DIST_SANITIZED)/IMG_PREFIX:=Hsen889-$(shell date +%Y%m%d)-$(VERSION_DIST_SANITIZED)/g' include/image.mk
 
 # 添加UPX UCL工具包
 # cp -r lede/tools/upx tools
