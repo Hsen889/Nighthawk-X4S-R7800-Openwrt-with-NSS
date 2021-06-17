@@ -19,6 +19,12 @@
 # 移除ACwifidude自带bin目录
 rm -rf bin
 
+# 加入 luci-app-freq
+pushd package/lean/
+rm -rf luci-app-cpufreq
+svn co https://github.com/immortalwrt/immortalwrt/branches/master/package/lean/luci-app-cpufreq package/lean/luci-app-cpufreq
+popd
+
 # 并入 lean插件包feeds和firewall
 # git clone https://github.com/coolsnowwolf/lede
 # cp -r lede/package/lean package/
