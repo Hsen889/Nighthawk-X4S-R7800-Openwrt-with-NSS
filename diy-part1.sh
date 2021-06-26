@@ -18,7 +18,6 @@
 
 # 移除ACwifidude自带bin目录
 rm -rf bin
-
 # 删除自带cpufreq配置
 rm -f target/linux/ipq806x/base-files/etc/init.d/cpufreq
 
