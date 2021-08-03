@@ -19,10 +19,10 @@
 # 移除ACwifidude自带bin目录
 rm -rf bin
 # 删除自带cpufreq配置
-# rm -f target/linux/ipq806x/base-files/etc/init.d/cpufreq
+rm -f target/linux/ipq806x/base-files/etc/init.d/cpufreq
 # cpufreq
-svn co https://github.com/immortalwrt/luci/tree/master/applications/luci-app-cpufreq feeds/luci/applications/luci-app-cpufreq
-ln -sf ../../../feeds/luci/applications/luci-app-cpufreq ./package/feeds/luci/luci-app-cpufreq
+# svn co https://github.com/immortalwrt/luci/tree/master/applications/luci-app-cpufreq feeds/luci/applications/luci-app-cpufreq
+# ln -sf ../../../feeds/luci/applications/luci-app-cpufreq ./package/feeds/luci/luci-app-cpufreq
 
 # 并入 lean插件包feeds和firewall
 # git clone https://github.com/coolsnowwolf/lede
