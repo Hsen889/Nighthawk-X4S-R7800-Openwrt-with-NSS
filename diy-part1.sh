@@ -30,6 +30,9 @@ rm -f target/linux/ipq806x/base-files/etc/init.d/cpufreq
 # wget -P target/linux/generic/hack-5.4 https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/generic/hack-5.4/952-net-conntrack-events-support-multiple-registrant.patch
 
 # 添加 ssr plus 和passwall 支持源
+git clone ttps://github.com/coolsnowwolf/packages feeds/leanpack
+sed -i '$a src-git leanluci https://github.com/coolsnowwolf/luci' feeds.conf.default
+
 sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small  https://github.com/kenzok8/small' feeds.conf.default
 
