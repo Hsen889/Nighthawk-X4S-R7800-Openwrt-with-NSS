@@ -64,8 +64,8 @@ mv package/lean/luci-app-accesscontrol/po/zh-cn package/lean/luci-app-accesscont
 
 
 # 添加UPX UCL工具包
-# cp -r lede/tools/upx tools
-# cp -r lede/tools/ucl tools
+ cp -r lede/tools/upx tools
+ cp -r lede/tools/ucl tools
 mkdir -p tools/ucl && wget -P tools/ucl https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/ucl/Makefile
 mkdir -p tools/upx && wget -P tools/upx https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/upx/Makefile
 
